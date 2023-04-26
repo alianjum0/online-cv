@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Muhammad Ali Anjum
-    tagline: Node.js Developer | Toptal
+    tagline: Node.js Developer | Toptal Certified | Top Rated @Upwork 
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -89,7 +89,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Senior software engineer with master's in computer science and 5 years of experience in Node.js.  Designed and developed RESTful services for projects including Vodafone services, European eID4u, real-time vehicle tracking system, and bio-metric authentication.
+      Senior software engineer with master's in computer science and six years of professional experience in Node.js.  Designed and developed RESTful services for projects including Vodafone services, European eID4u, real-time vehicle tracking system, and bio-metric authentication.
 education:
     title: Education
     info:
@@ -115,6 +115,13 @@ education:
 experiences:
     title: Experiences
     info:
+    - role: Node.JS Engineer
+      time: 08/2022 - Present
+      company: Upwork
+      details: |
+          - Jumped into projects quicly and resolved issues faced by companies for several months.
+          - Designed and developed backend for two MVP projects in Node.JS, Nest.JS, Prisma, PostgreSQL and GraphQL.
+          - Developed Optimization for two projects. 
     - role: Full-Stack Developer
       time: 01/2021 - 04/2022
       company: Spindox S.P.A., Turin, Italy
@@ -176,20 +183,40 @@ projects:
     title: Projects
     intro: >
     assignments:
-      - title: Optimise Database and Queries for Node.js Dashboard
-        link: "https://www.upwork.com/freelancers/alianjum0"
-        tagline: "Developed optimization for PostgreSQL data to reduce queries from 15 seconds to less than 1 second using Materialized views."
-        technologies: PostgreSQL, Materialized views, Prisma Raw Queries.
+      - title: Tickets Price Scrapping
+        link: "https://www.linkedin.com/posts/alianjum0_see-how-i-can-get-your-project-done-on-upwork-activity-7042254872687116288-o-UM"
+        tagline: "Developed a scrapper using cheerio and axios. Reduced scrapping time from 5 minutes to 15 seconds from the old script. I deployed it on AWS Lambda using serverless."
+        technologies: Node.JS, AWS Lambda, AWS Step, AWS SNS, DynamoDB, AWS S3, Cheerio.
 
-      - title: Time Series with MongoDB
-        link: "https://www.upwork.com/freelancers/alianjum0"
-        tagline: "Developed optimization for MongoDB time-series data to reduce queries from 60 seconds to less than 2 seconds using Materialized views."
-        technologies: MongoDB, TimeSeries Data, Materialized views.
+      - title: Database and Queries for Node.js Dashboard (PostgreSQL and Prisma)
+        link: "https://www.linkedin.com/posts/alianjum0_see-how-i-can-get-your-project-done-on-upwork-activity-7028661467587452928-zfOj"
+        tagline: "Reduced query time from 15 seconds to 2 seconds for 1.5 million records."
+        technologies: Node.JS, GraphQL, PostgreSQL, Prisma, Svelte.
+
+      - title: MERN Dev-Ops
+        link: "https://www.linkedin.com/posts/alianjum0_see-how-i-can-get-your-project-done-on-upwork-activity-7056952510732771330-ghi1"
+        tagline: "Developed and deployed a CI/CD pipeline for the MERN application on AWS using Github Actions, AWS EC2, and Docker."
+        technologies: Node.JS, React, Docker, Docker-Compose, AWS EC2, AWS CloudWatch, Cloudflare.
+
+      - title: Time Series with MongoDB optimization
+        link: "https://www.linkedin.com/posts/alianjum0_see-how-i-can-get-your-project-done-on-upwork-activity-7028660434664615936-RFCj"
+        tagline: "Reduced query time from 60 seconds to 2 seconds for 30 million records."
+        technologies: MongoDB, Time Series Data
+
+      - title: Shopify Scrapping Bot
+        link: "https://www.linkedin.com/posts/alianjum0_see-how-i-can-get-your-project-done-on-upwork-activity-7056949898117586944-gubV"
+        tagline: "Developed a generic bot to scrape all products from a Shopify or e-commerce website."
+        technologies: Node.JS, Shopify, Metascraper.
+
+      - title: Tensorflow categorical model to Node API
+        link: "https://www.linkedin.com/posts/alianjum0_see-how-i-can-get-your-project-done-on-upwork-activity-7056951404996812800-IpEI"
+        tagline: "Resolved and integrated the Tensorflow model with Node.JS using tensorflow.js."
+        technologies: Node.JS, Tensorflow, Colab.
 
       - title: Pathology Images
         link: "#hook"
         tagline: "An application to predict probabilities of segmentation containing cancer using deep neural network."
-        technologies: PyTorch, Flask, NW.js, Git.
+        technologies: PyTorch, Flask, NW.js, and Git.
 
       - title: TereTrack
         link: "#"
