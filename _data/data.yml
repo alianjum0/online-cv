@@ -3,8 +3,9 @@
 #
 
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: False # set to False if you want education in main section instead of in sidebar
+  position: right # position of the sidebar : left or right
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Muhammad Ali Anjum
@@ -28,6 +29,9 @@ sidebar:
     #stack-overflow: # Number/Username, e.g. 123456/alandoe
     #codewars:
     #goodreads: # Number-Username, e.g. 123456-alandoe
+    mastodon: # Please include your full Mastodon link here.
+    hackerrank: # Please provide your HackerRank username.
+    leetcode: # Please provide your LeetCode username.
     pdf: https://alianjum0.github.io/online-cv/assets/Anjum_CV.pdf
 
     languages:
@@ -243,8 +247,26 @@ publications:
         authors: M. S. Omar, M. A. Anjum, S. A. Hassan, H. Parveiz, Q. Ni
         conference: IEEE International Conference on Communications (ICC), 2016
 
+recommendations:
+  title: Recommendations
+  list:
+  - person: Yareli Perez
+    email: perezyareli@example.com
+    phone: 012 345 6789
+    role: General Director at example.com
+    recommendation: |
+      Alan Doe is a super employee!
+  - person: Lara Henderson
+    email: larah@example.com
+    phone: 012 345 6789
+    role: General Director at example.com
+    recommendation: |
+      I would like to work with Alan Doe again!
+
+      He is a great employee!
+
 skills:
-    title: Skills &amp; Proficiency
+  title: Skills &amp; Proficiency
 
     toolset:
       - name: JavaScript, NW,js, & Node.js
@@ -268,4 +290,4 @@ skills:
       - name: Docker, Travis CI, Grafana, Prometheus
         level: 60%
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
