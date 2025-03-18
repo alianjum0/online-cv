@@ -3,49 +3,49 @@
 #
 
 sidebar:
-  position: right # position of the sidebar : left or right
+  #position: right # position of the sidebar : left or right
   about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: False # set to False if you want education in main section instead of in sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Muhammad Ali Anjum
-    tagline: Node.js Developer | Toptal Certified | Top Rated @Upwork 
-    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Muhammad Ali Anjum
+  tagline: Team Lead Node.JS | Toptal Cerftified
+  avatar: profile.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: m.alianjum0@gmail.com
-    #phone: 012 345 6789
-    citizenship:
-    timezone: Europe/Rome
-    #website: github.com/alianjum0/online-cv #do not add http://
-    linkedin: alianjum0
-    upwork: alianjum0
-    #xing: alandoe
-    github: alianjum0
-    #telegram: # add your nickname without '@' sign
-    #gitlab:
-    #bitbucket:
-    twitter: alianjum0
-    #stack-overflow: # Number/Username, e.g. 123456/alandoe
-    #codewars:
-    #goodreads: # Number-Username, e.g. 123456-alandoe
-    mastodon: # Please include your full Mastodon link here.
-    hackerrank: # Please provide your HackerRank username.
-    leetcode: # Please provide your LeetCode username.
-    pdf: https://alianjum0.github.io/online-cv/assets/Anjum_CV.pdf
+  # Sidebar links
+  email: m.alianjum0@gmail.com
+  #phone: 012 345 6789
+  citizenship:
+  timezone: Europe/Rome
+  #website: github.com/alianjum0/online-cv #do not add http://
+  linkedin: alianjum0
+  upwork: alianjum0
+  #xing: alandoe
+  github: alianjum0
+  #telegram: # add your nickname without '@' sign
+  #gitlab:
+  #bitbucket:
+  twitter: alianjum0
+  #stack-overflow: # Number/Username, e.g. 123456/alandoe
+  #codewars:
+  #goodreads: # Number-Username, e.g. 123456-alandoe
+  mastodon: # Please include your full Mastodon link here.
+  hackerrank: # Please provide your HackerRank username.
+  leetcode: # Please provide your LeetCode username.
+  #pdf: https://alianjum0.github.io/online-cv/assets/Anjum_CV.pdf
 
-    languages:
-      title: Languages
-      info:
+  languages:
+    title: Languages
+    info:
       - idiom: English
         level: Proficent
 
       - idiom: Italian
         level: Professional
 
-    interests:
-      title: Interests
-      info:
+  interests:
+    title: Interests
+    info:
       - item: Hiking
         link:
 
@@ -55,239 +55,285 @@ sidebar:
       - item: Running
         link:
 
-    certificates:
-      - item: Continuous Integration
-        link: https://www.coursera.org/account/accomplishments/certificate/637VHNMTB7MB
-        organization: Coursera
-        date: 10/2020
+  certificates:
+    - item: Continuous Integration
+      link: https://www.coursera.org/account/accomplishments/certificate/637VHNMTB7MB
+      organization: Coursera
+      date: 10/2020
 
-      - item: Rest API (Intermediate)
-        link: https://www.hackerrank.com/certificates/dc7e9e812f20
-        organization: HackerRank
-        date: 10/2020
+    - item: Rest API (Intermediate)
+      link: https://www.hackerrank.com/certificates/dc7e9e812f20
+      organization: HackerRank
+      date: 10/2020
 
-      - item: JavaScript (Intermediate)
-        link: https://www.hackerrank.com/certificates/587914f38ce7
-        organization: HackerRank
-        date: 10/2020
+    - item: JavaScript (Intermediate)
+      link: https://www.hackerrank.com/certificates/587914f38ce7
+      organization: HackerRank
+      date: 10/2020
 
-      - item: SQL (Intermediate)
-        link: https://www.hackerrank.com/certificates/c6fb3cb8fc88
-        organization: HackerRank
-        date: 07/2022
+    - item: SQL (Intermediate)
+      link: https://www.hackerrank.com/certificates/c6fb3cb8fc88
+      organization: HackerRank
+      date: 07/2022
 
-      - item: Python (Basic)
-        link: https://www.hackerrank.com/certificates/c310cb9c4568
-        organization: HackerRank
-        date: 10/2020
+    - item: Python (Basic)
+      link: https://www.hackerrank.com/certificates/c310cb9c4568
+      organization: HackerRank
+      date: 10/2020
 
-      - item: Java (Basic)
-        link: https://www.hackerrank.com/certificates/e31a3e0a734f
-        organization: HackerRank
-        date: 10/2020
+    - item: Java (Basic)
+      link: https://www.hackerrank.com/certificates/e31a3e0a734f
+      organization: HackerRank
+      date: 10/2020
 
-      - item: Problem Solving (Basic)
-        link: https://www.hackerrank.com/certificates/dc67ae8fd0a4
-        organization: HackerRank
-        date: 10/2020
+    - item: Problem Solving (Basic)
+      link: https://www.hackerrank.com/certificates/dc67ae8fd0a4
+      organization: HackerRank
+      date: 10/2020
 
 career-profile:
-    title: Career Profile
-    summary: |
-      Senior software engineer with master's in computer science and six years of professional experience in Node.js.  Designed and developed RESTful services for projects including Vodafone services, European eID4u, real-time vehicle tracking system, and bio-metric authentication.
+  title: Career Profile
+  summary: |
+    Senior software engineer with master's in computer science and eight years 
+    of professional experience in Node.js.  Designed and developed RESTful 
+    services for projects including Vodafone services, European eID4u, 
+    real-time vehicle tracking system, and bio-metric authentication.
 education:
-    title: Education
-    info:
+  title: Education
+  info:
     - degree: Master’s in Computer Engineering
       university: Politecnico Di Torino
       time: 2017 - 2019
       details: |
-          - Thesis: Design and development of WiFi access with eIDAS for cross border authentication.
-          - Studies focused on System Architecture, Data Science and Computer Security.
-          - Related Courses: Computer System Security, Big Data, Machine Learning 
-            and Artificial Intelligence, Computer Architecture, Computer 
-            Networks, Distributed Programming, System and Device Programming
+        - Thesis: Design and development of WiFi access with eIDAS for cross border authentication.
+        - Studies focused on System Architecture, Data Science and Computer Security.
+        - Related Courses: Computer System Security, Big Data, Machine Learning 
+          and Artificial Intelligence, Computer Architecture, Computer 
+          Networks, Distributed Programming, System and Device Programming
     - degree: Bachelor’s in Software Engineering
       university: National University of Sciences and Technology
       time: 2011 - 2015
       details: |
-          - Thesis: Design and development of WiFi access with eIDAS for cross border authentication
-          - Studies focused on software design and development with Distributed 
-            Computing as major.
-          - Related Courses: Distributed Systems, Operating Systems, Object Oriented 
-            Programming, Parallel Computing,Computer Networks, Network Security, 
-            Database Systems, Computer Architecture, Software Construction
+        - Thesis: Design and development of WiFi access with eIDAS for cross border authentication
+        - Studies focused on software design and development with Distributed 
+          Computing as major.
+        - Related Courses: Distributed Systems, Operating Systems, Object Oriented 
+          Programming, Parallel Computing,Computer Networks, Network Security, 
+          Database Systems, Computer Architecture, Software Construction
 experiences:
-    title: Experiences
-    info:
+  title: Experiences
+  info:
+    - role: Team Lead, Node.JS
+      time: 05/2023 - Present
+      company: Toptal Client
+      details: |
+        - Developed an AI-powered lead qualification agent using OpenAI and Claude. 
+        This system streamlined the sales process by identifying high-potential leads, 
+        reducing manual effort, and enabling the sales team to focus on conversion-driven prospects. 
+        - Designed and developed a seamless onboarding and payment flow integration. Built a 
+        dynamic checkout system supporting multiple payment options, including EasyPayDirect, 
+        PayPal, and My Abundant Financing. Developed a streamlined onboarding process.
+        - Built a checkout page with EasyPayDirect, ensuring secure transactions, lower fees, 
+        and protection against account blockages.
     - role: Node.JS Engineer
-      time: 08/2022 - Present
+      time: 08/2022 - 04/2023
       company: Upwork
       details: |
-          - Jumped into projects quicly and resolved issues faced by companies for several months.
-          - Designed and developed backend for two MVP projects in Node.JS, Nest.JS, Prisma, PostgreSQL and GraphQL.
-          - Developed Optimization for two projects. 
+        - Jumped into projects quicly and resolved issues faced by companies for several months.
+        - Designed and developed backend for two MVP projects in Node.JS, Nest.JS, Prisma, PostgreSQL and GraphQL.
+        - Developed optimization for two projects and reduced query time by 30X.
     - role: Full-Stack Developer
       time: 01/2021 - 04/2022
       company: Spindox S.P.A., Turin, Italy
       details: |
-          - Lead the implementation of CI/CD pipeline in the development environment using jenkins, bitbucket webhook and docker.
-          - Designed and developed maintainable RESTful services in Node.js using express framework.
-          - Designed, developed and implemented service monitoring system using grafana, prometheus and swagger-stats, promtail and loki.
+        - Lead the implementation of CI/CD pipeline in the development environment using jenkins, bitbucket webhook and docker.
+        - Designed and developed maintainable RESTful services in Node.js using express framework.
+        - Designed, developed and implemented service monitoring system using grafana, prometheus and swagger-stats, promtail and loki.
     - role: Research Assistant, Computer Security
       time: 03/2019 - 12/2019
       company: TORSEC - Computer and Network Security Group, DAUIN, Politecnico di Torino
       details: |
-          - Design and development of a WiFi access service with eIDAS for cross border authentication.
-          - Developed a service provider to authenticate using eIDAS regulation and integrated it in the Politecnico di Torino network.
-          - Research areas: PKI, digital identity, network security and protection of network.
+        - Design and development of a WiFi access service with eIDAS for cross border authentication.
+        - Developed a service provider to authenticate using eIDAS regulation and integrated it in the Politecnico di Torino network.
+        - Research areas: PKI, digital identity, network security and protection of network.
     - role: Full-Stack Developer, Freelance
       time: 08/2016 - 12/2018
       company: Awesomebox Technologies, Lockport, Illinois, United States
       details: |
-          - Designed and developed an IT assistant as a software solution.
-          - Developed RESTful web api in node.js and windows application in NW.js.
-          - Elasticsearch was used for effective and accurate text search.
-    - role: Filmmaker
-      time: 08/2018 - 09/2018
-      company: AIESEC
-      details: |
-          Internship as filmmaker in a project called ”Experience Meraki“ of the NGO Day After and AIESEC in Ithaca, Greece to empower local communities. 
+        - Designed and developed an IT assistant as a software solution.
+        - Developed RESTful web api in node.js and windows application in NW.js.
+        - Elasticsearch was used for effective and accurate text search.
+    #    - role: Filmmaker
+    #      time: 08/2018 - 09/2018
+    #      company: AIESEC
+    #      details: |
+    #        Internship as filmmaker in a project called ”Experience Meraki“ of the NGO Day After and AIESEC in Ithaca, Greece to empower local communities.
     - role: Founder
       time: 01/2016 - 08/2017
       company: Vinduo, Islamabad, Pakistan
       details: |
-          - Pakistan's first ever digital startup to provide a virtual try room on e-commerce websites facilitating a customer sitting home and try digital apparels before even buying it.
-          - Lessons learned: Educating customers to new technology is an expensive and extremely difficult process.
+        - Pakistan's first ever digital startup to provide a virtual try room on e-commerce websites facilitating a customer sitting home and try digital apparels before even buying it.
+        - Lessons learned: Educating customers to new technology is an expensive and extremely difficult process.
     - role: Software Design Engineer
       time: 11/2015 - 07/2016
       company: TeReSol Pvt Ltd
       details: |
-          - Designed, developed and implemented a RESTful web service for real-time vehicle tracking system in Node.js using Sails MVC Framework.
-          - Developed boilerplate using Node.JS, Express, Sails, Backbone and MySQL. Which was used for multiple projects including a project for National Bank of Pakistan.
-          - Developed custom solution to handle large amount of incoming requests.
-    - role: Chief Technology Officer
-      time: 09/2014 - 01/2016
-      company: Traverse Pakistan
-      details: |
-          - Leading the development of  web portal using REST API in Django.
+        - Designed, developed and implemented a RESTful web service for real-time vehicle tracking system in Node.js using Sails MVC Framework.
+        - Developed boilerplate using Node.JS, Express, Sails, Backbone and MySQL. Which was used for multiple projects including a project for National Bank of Pakistan.
+        - Developed custom solution to handle large amount of incoming requests.
+    #    - role: Chief Technology Officer
+    #      time: 09/2014 - 01/2016
+    #      company: Traverse Pakistan
+    #      details: |
+    #        - Leading the development of  web portal using REST API in Django.
     - role: Software Developer, Freelance
       time: 01/2015 - 10/2015
       company: Ops Assurance, Coventry, UK
       details: |
-          - Cross platform mobile application was developed using Ionic Framework.
-          - Back-end was developed in Nodejs using Express framework and front-end was developed in AnugularJS with MVC design pattern.
+        - Cross platform mobile application was developed using Ionic Framework.
+        - Back-end was developed in Nodejs using Express framework and front-end was developed in AnugularJS with MVC design pattern.
     - role: Research Assistant
       time: 08/2014 - 06/2015
       company: Information Processing & Transmission Lab, Islamabad, Pakistan
       details: |
-          - Design and Development of Opportunistic Large Array Networks for Smart Grid Communications
-          - Virtual platform  was developed to control and configure software defined radios.
-          - Research areas: Signal processing, Sensor networks, Data analysis.
+        - Design and Development of Opportunistic Large Array Networks for Smart Grid Communications
+        - Virtual platform  was developed to control and configure software defined radios.
+        - Research areas: Signal processing, Sensor networks, Data analysis.
 projects:
-    title: Projects
-    intro: >
-    assignments:
-      - title: Tickets Price Scrapping
-        link: "https://www.linkedin.com/posts/alianjum0_see-how-i-can-get-your-project-done-on-upwork-activity-7042254872687116288-o-UM"
-        tagline: "Developed a scrapper using cheerio and axios. Reduced scrapping time from 5 minutes to 15 seconds from the old script. I deployed it on AWS Lambda using serverless."
-        technologies: Node.JS, AWS Lambda, AWS Step, AWS SNS, DynamoDB, AWS S3, Cheerio.
+  title: Projects
+  intro: >
+  assignments:
+    - title: Tickets Price Scrapping
+      link: "https://www.linkedin.com/posts/alianjum0_see-how-i-can-get-your-project-done-on-upwork-activity-7042254872687116288-o-UM"
+      tagline: "Developed a scrapper using cheerio and axios. Reduced scrapping time from 5 minutes to 15 seconds from the old script. I deployed it on AWS Lambda using serverless."
+      technologies: Node.JS, AWS Lambda, AWS Step, AWS SNS, DynamoDB, AWS S3, Cheerio.
 
-      - title: Database and Queries for Node.js Dashboard (PostgreSQL and Prisma)
-        link: "https://www.linkedin.com/posts/alianjum0_see-how-i-can-get-your-project-done-on-upwork-activity-7028661467587452928-zfOj"
-        tagline: "Reduced query time from 15 seconds to 2 seconds for 1.5 million records."
-        technologies: Node.JS, GraphQL, PostgreSQL, Prisma, Svelte.
+    - title: Database and Queries for Node.js Dashboard (PostgreSQL and Prisma)
+      link: "https://www.linkedin.com/posts/alianjum0_see-how-i-can-get-your-project-done-on-upwork-activity-7028661467587452928-zfOj"
+      tagline: "Reduced query time from 15 seconds to 2 seconds for 1.5 million records."
+      technologies: Node.JS, GraphQL, PostgreSQL, Prisma, Svelte.
 
-      - title: MERN Dev-Ops
-        link: "https://www.linkedin.com/posts/alianjum0_see-how-i-can-get-your-project-done-on-upwork-activity-7056952510732771330-ghi1"
-        tagline: "Developed and deployed a CI/CD pipeline for the MERN application on AWS using Github Actions, AWS EC2, and Docker."
-        technologies: Node.JS, React, Docker, Docker-Compose, AWS EC2, AWS CloudWatch, Cloudflare.
+    - title: MERN Dev-Ops
+      link: "https://www.linkedin.com/posts/alianjum0_see-how-i-can-get-your-project-done-on-upwork-activity-7056952510732771330-ghi1"
+      tagline: "Developed and deployed a CI/CD pipeline for the MERN application on AWS using Github Actions, AWS EC2, and Docker."
+      technologies: Node.JS, React, Docker, Docker-Compose, AWS EC2, AWS CloudWatch, Cloudflare.
 
-      - title: Time Series with MongoDB optimization
-        link: "https://www.linkedin.com/posts/alianjum0_see-how-i-can-get-your-project-done-on-upwork-activity-7028660434664615936-RFCj"
-        tagline: "Reduced query time from 60 seconds to 2 seconds for 30 million records."
-        technologies: MongoDB, Time Series Data
+    - title: Time Series with MongoDB optimization
+      link: "https://www.linkedin.com/posts/alianjum0_see-how-i-can-get-your-project-done-on-upwork-activity-7028660434664615936-RFCj"
+      tagline: "Reduced query time from 60 seconds to 2 seconds for 30 million records."
+      technologies: MongoDB, Time Series Data
 
-      - title: Shopify Scrapping Bot
-        link: "https://www.linkedin.com/posts/alianjum0_see-how-i-can-get-your-project-done-on-upwork-activity-7056949898117586944-gubV"
-        tagline: "Developed a generic bot to scrape all products from a Shopify or e-commerce website."
-        technologies: Node.JS, Shopify, Metascraper.
+    - title: Shopify Scrapping Bot
+      link: "https://www.linkedin.com/posts/alianjum0_see-how-i-can-get-your-project-done-on-upwork-activity-7056949898117586944-gubV"
+      tagline: "Developed a generic bot to scrape all products from a Shopify or e-commerce website."
+      technologies: Node.JS, Shopify, Metascraper.
 
-      - title: Tensorflow categorical model to Node API
-        link: "https://www.linkedin.com/posts/alianjum0_see-how-i-can-get-your-project-done-on-upwork-activity-7056951404996812800-IpEI"
-        tagline: "Resolved and integrated the Tensorflow model with Node.JS using tensorflow.js."
-        technologies: Node.JS, Tensorflow, Colab.
+    - title: Tensorflow categorical model to Node API
+      link: "https://www.linkedin.com/posts/alianjum0_see-how-i-can-get-your-project-done-on-upwork-activity-7056951404996812800-IpEI"
+      tagline: "Resolved and integrated the Tensorflow model with Node.JS using tensorflow.js."
+      technologies: Node.JS, Tensorflow, Colab.
 
-      - title: Pathology Images
-        link: "#hook"
-        tagline: "An application to predict probabilities of segmentation containing cancer using deep neural network."
-        technologies: PyTorch, Flask, NW.js, and Git.
+    - title: Pathology Images
+      link: "#hook"
+      tagline: "An application to predict probabilities of segmentation containing cancer using deep neural network."
+      technologies: PyTorch, Flask, NW.js, and Git.
 
-      - title: TereTrack
-        link: "#"
-        tagline: "A Server designed in NodeJS to communicate with a GPS Tracking Device."
-        technologies: BackboneJS, SailsJS,PM2, nginx, Git, socket.io, REST, MySQL.
+    - title: TereTrack
+      link: "#"
+      tagline: "A Server designed in NodeJS to communicate with a GPS Tracking Device."
+      technologies: BackboneJS, SailsJS,PM2, nginx, Git, socket.io, REST, MySQL.
 
-      - title: NADRA bio-metric verification for NBP
-        link: "#"
-        tagline: "A system designed for bio-metric verification of customers for Account Opening and Pensioners."
-        technologies: BackboneJS, SailsJS, PM2, nginx, git, SOAP, MySQL.
+    - title: NADRA bio-metric verification for NBP
+      link: "#"
+      tagline: "A system designed for bio-metric verification of customers for Account Opening and Pensioners."
+      technologies: BackboneJS, SailsJS, PM2, nginx, git, SOAP, MySQL.
 
-      - title: Rfusion
-        link: "#"
-        tagline: "A blood donation web portal to bridge gap between donors and patients."
-        technologies: Nodejs, Express, Mongodb.
+    - title: Rfusion
+      link: "#"
+      tagline: "A blood donation web portal to bridge gap between donors and patients."
+      technologies: Nodejs, Express, Mongodb.
 
 publications:
-    title: Publications
-    intro: |
-    papers:
-      - title: Performance Analysis of Hybrid 5G Cellular Networks Exploiting mmWave Capabilities in Suburban Area
-        link: "https://ieeexplore.ieee.org/document/7511278"
-        authors: M. S. Omar, M. A. Anjum, S. A. Hassan, H. Parveiz, Q. Ni
-        conference: IEEE International Conference on Communications (ICC), 2016
+  title: Publications
+  intro: |
+  papers:
+    - title: Performance Analysis of Hybrid 5G Cellular Networks Exploiting mmWave Capabilities in Suburban Area
+      link: "https://ieeexplore.ieee.org/document/7511278"
+      authors: M. S. Omar, M. A. Anjum, S. A. Hassan, H. Parveiz, Q. Ni
+      conference: IEEE International Conference on Communications (ICC), 2016
 
 recommendations:
   title: Recommendations
   list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
+    - person: Upwork Client
+      #email: perezyareli@example.com
+      #phone: 012 345 6789
+      #role: General Director at example.com
+      recommendation: |
+        Muhammad did a great job. He improved on the previous NodeJS code base and made it run nearly 20X faster! 
+        He was readily available for any small changes we requested and understood immediately what we're asking for. Would recommend.
+    - person: Upwork Client
+      #email: larah@example.com
+      #phone: 012 345 6789
+      #role: General Director at example.com
+      recommendation: |
+        Completed task to perfection, understood the inner workings of our software dependencies (and willing to 
+        learn where necessary) and provided a perfect solution to speed up our software's performance times. 
+        Easy to work with and kept in contact with issues and queries.
 
-      He is a great employee!
+        Would definitely keep him in mind for future jobs/projects.
+    - person: Upwork Client
+      recommendation: |
+        Muhammad has managed my CI / CD pipeline in AWS very efficiently and have also given support for a long 
+        period of time in good faith. He is an excellent backend developer too. If you are confused about your selection, 
+        i can vouch for him. He can deliver the complex solutions in a timely fashion. Thanks for all your help.
+    - person: Upwork Client
+      recommendation: |
+        Ali picked up our problem very fast and gave us solutions which in the end worked fabolously.
+
+        Great commitment towards customer
+    - person: Upwork Client
+      recommendation: |
+        Ali is a highly skilled professional. My project was delivered before the deadline, and he 
+        explained everything to me in detail. I highly recommend him and I will definitely hire him again.
+    - person: Upwork Client
+      recommendation: |
+        He is simply a reliable person. You explain him the requirements and expect that the work would 
+        be done in given time frame. I will definitely recommend him and will be looking for future partnerships.
+    - person: Upwork Client
+      recommendation: |
+        Muhammad was an outstanding person to work with. He completed a very difficult task that was not 
+        easy due to lack of documentation and bugs within the framework. He finished the task on time and had 
+        great patience, even taking the time to adhere to my schedule in the United States. Even after the job 
+        was completed and he was paid, he took the time to go back over the work with me over Google Meets so 
+        that I could understand the code better. The most important thing was that I did not feel like 'just another client' 
+        to him. He really took the time to understand my needs and made sure that I was happy with the work that 
+        was completed. Another benefit was that he would update me with his progress (which is different than most 
+        other freelancers with whom you have to constantly reach out to in order to get an update). I would not 
+        hesitate to hire Muhammad if given the opportunity. I look forward to working with Muhammad in the 
+        future (I would hire him full time if I could).
+
+        Also his English is fluent whether it be on chat or over the phone.
 
 skills:
   title: Skills &amp; Proficiency
+  toolset:
+    - name: TypeScript, JavaScript, NW,js, Node.js, MySQL, MongoDB
+      level: 98%
 
-    toolset:
-      - name: JavaScript, NW,js, & Node.js
-        level: 98%
+    - name: Svelte, Grafana, AngularJS, Backbone, Ionic, Sails
+      level: 90%
 
-      - name: AngularJS, Backbone, Ionic, Sails 
-        level: 90%
+    - name: Python, Java, C++
+      level: 80%
 
-      - name: Python, Java, C++
-        level: 80%
+    - name: Git & Subversion
+      level: 80%
 
-      - name: MySQL, MongoDB
-        level: 80%
+    - name: Hadoop, Spark, PyTorch, R
+      level: 70%
 
-      - name: Git & Subversion
-        level: 80%
-
-      - name: Hadoop, Spark, PyTorch, R
-        level: 70%
-
-      - name: Docker, Travis CI, Grafana, Prometheus
-        level: 60%
+    - name: Docker, Travis CI, Grafana, Prometheus
+      level: 60%
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
