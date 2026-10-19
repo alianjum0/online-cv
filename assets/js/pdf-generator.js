@@ -33,6 +33,9 @@ function generatePDF() {
           scale: 2,
           useCORS: true,
           letterRendering: true,
+          // Capture from the document origin even when the CV is scrolled.
+          scrollX: 0,
+          scrollY: 0,
         },
         jsPDF: {
           unit: "mm",

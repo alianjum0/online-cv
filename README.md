@@ -94,6 +94,47 @@ Testing your GitHub Pages site locally with Jekyll in docker
 > docker run --rm --volume="$PWD:/srv/jekyll" -p 4000:4000 -it jekyll/jekyll:$JEKYLL_VERSION jekyll serve
 Go to [localhost:4000/online-cv/](localhost:4000/online-cv/)
 
+## Verified local preview and PDF checks
+
+The current configuration uses an empty `baseurl`: open
+<http://localhost:4000/> and <http://localhost:4000/print>.
+
+For Docker on an Apple Silicon Mac, the existing Jekyll image can run with
+AMD64 emulation (the first run installs the locked gems):
+
+```sh
+rtk proxy docker run --name online-cv-local --platform linux/amd64 -d \
+  -p 127.0.0.1:4000:4000 \
+  --mount type=bind,src="$PWD",dst=/srv/jekyll \
+  jekyll/builder:4.0 jekyll serve --watch --force_polling --host 0.0.0.0 --port 4000
+```
+
+Subsequent runs can use `rtk proxy docker start online-cv-local`. Use
+`rtk proxy docker logs online-cv-local` to check startup. The container started
+during the October 19, 2026 setup is named `online-cv-local-20261019`.
+
+To check the PDF blank-page regression, export using the PDF button both before
+and after scrolling down. The opening content should appear on the first page,
+with no large gap above it. With Poppler installed, check the actual PDFs:
+
+```sh
+rtk proxy python3 scripts/check-pdf-top.py /path/to/top.pdf /path/to/scrolled.pdf
+```
+
+For a repeatable browser check, install/use `playwright-cli`, open a session,
+and pass `scripts/export-pdf-regression.js` to its `run-code` command:
+
+```sh
+rtk proxy mkdir -p /tmp/online-cv-pdf-check
+rtk proxy playwright-cli -s=cv-pdf open http://127.0.0.1:4000/
+rtk proxy sh -c 'playwright-cli -s=cv-pdf run-code "$(cat scripts/export-pdf-regression.js)"'
+rtk proxy sh -c 'python3 scripts/check-pdf-top.py /tmp/online-cv-pdf-check/*.pdf'
+```
+
+The scenario covers desktop exports at the top, middle, and bottom, plus mobile
+export after scrolling. The pixel check catches blank opening pages; visually
+inspect the remaining pages for layout and pagination issues as well.
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=sharu725/online-cv&type=Date)](https://star-history.com/#sharu725/online-cv&Date)
